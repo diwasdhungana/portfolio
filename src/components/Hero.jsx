@@ -173,6 +173,10 @@ const Hero = () => {
               <Button
                 variant="contained"
                 size="large"
+                onClick={() =>
+                  (window.location.href =
+                    "mailto:diwasdhungana@gmail.com?subject=Portfolio%20Contact")
+                }
                 sx={{
                   borderRadius: 28,
                   px: { xs: 4, md: 6 },
@@ -186,7 +190,7 @@ const Hero = () => {
                   fontSize: { xs: "0.875rem", md: "1rem" },
                 }}
               >
-                Contact Me
+                Email Me
               </Button>
             </Box>
           </Box>
